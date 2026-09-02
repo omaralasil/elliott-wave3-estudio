@@ -78,7 +78,7 @@ La v1 daba PF 3,87 porque el zigzag etiquetaba pivotes mirando **toda la serie**
 ```
 ├── README.md                     ← estás aquí
 ├── docs/
-│   ├── writeup-completo.md        ← el estudio completo
+│   ├── elliott-writeup.md        ← el estudio completo
 │   ├── hoja-parametros.md         ← referencia de parámetros
 │   └── auditoria-codigo.md        ← auditoría de look-ahead del motor
 ├── analisis/
