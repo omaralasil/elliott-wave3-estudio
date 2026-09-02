@@ -16,7 +16,7 @@ No es "un algoritmo que gana dinero". Es un ejercicio de **honestidad cuantitati
 - **La pregunta grande, respondida con honestidad:** al descomponer el retorno por factores (Carhart 4F), es **mayormente beta de mercado US + un sesgo small-cap**; el **alpha genuino NO es estadísticamente significativo** (~5,6%/año, p=0,063). Batió al índice en bruto, pero no está demostrado que lo bata ajustado por riesgo.
 - **Validación 100% histórica** (walk-forward, ~13 años) + auditoría de código completa. Operativa en vivo recién iniciada.
 
-**Writeup completo (con todas las tablas y la reflexión):** [`docs/elliott-writeup.md`](docs/elliot-writeup.md)
+**Writeup completo (con todas las tablas y la reflexión):** [`docs/elliott-writeup.md`](docs/elliott-writeup.md)
 
 ---
 
