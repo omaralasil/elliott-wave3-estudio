@@ -42,7 +42,7 @@ Zigzag adaptativo por ATR (Wilder, 14)
 - **Universo:** ~957 tickers candidatos (mayoría US + varias bolsas europeas); 3 bolsas blacklisteadas empíricamente (PF <1,5). *No es un universo point-in-time — ver Limitaciones.*
 - **Stack:** Python 3.11, pandas/NumPy, yfinance (caché Parquet), matplotlib; 42+ tests en pytest.
 
-## 3. ⭐ La auditoría de look-ahead (el corazón del proyecto)
+## 3. ⭐ La auditoría de look-ahead
 
 La primera versión daba un Profit Factor de 3,87. Demasiado bueno — y lo era.
 
@@ -67,7 +67,7 @@ Un sistema que **empeora** cuando le quitas la capacidad de ver el futuro, y que
 
 > **Honestidad, también con mis propios errores:** durante la auditoría diagnostiqué que la concentración de cierres en la franja 39–52 semanas era look-ahead residual. Estaba equivocado: se debe al cierre forzado por tiempo (`max_holding_weeks=52`). Corregí el diagnóstico. La auditoría también se audita.
 
-## 4. Resultados (honestos, US primero)
+## 4. Resultados
 
 ### 4.1 El titular real: es un edge US
 
@@ -80,7 +80,7 @@ El PF agregado esconde una verdad que prefiero enseñar que ocultar: **el edge e
 
 En US, la señal muestra un edge claro. En Europa, la **mediana del trade es +0,9% — literalmente una moneda al aire**: su media ligeramente positiva la sostienen unos pocos ganadores. Reportarlo por separado es más honesto que un promedio que disimula la parte débil.
 
-### 4.2 Escenario de gestión de salida (el "por qué", no solo el "qué")
+### 4.2 Escenario de gestión de salida. El "por qué", no solo el "qué")
 
 Sobre las **mismas 435 señales**, tres formas de gestionar la salida:
 
