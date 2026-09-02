@@ -80,7 +80,6 @@ La v1 daba PF 3,87 porque el zigzag etiquetaba pivotes mirando **toda la serie**
 ├── docs/
 │   ├── elliott-writeup.md        ← el estudio completo
 │   ├── hoja-parametros.md         ← referencia de parámetros
-│   └── auditoria-codigo.md        ← auditoría de look-ahead del motor
 ├── analisis/
 │   ├── walkforward_harness.py     ← esqueleto seguro del backtest walk-forward
 │   ├── regresion_factores.py      ← alpha vs beta (Carhart 4F)
